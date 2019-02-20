@@ -1,0 +1,19 @@
+micronaut:
+    application:
+        name: micrograal
+    server:
+        port: 8081
+
+endpoints:
+    info:
+        enabled: true
+        sensitive: false
+    health:
+        enabled: true
+        sensitive: false
+
+tracing:
+    jaeger:
+        enabled: true
+        sampler:
+            probability: 1
